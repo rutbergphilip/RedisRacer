@@ -1,0 +1,30 @@
+{
+  "name": "redisracer",
+  "version": "1.0.0",
+  "description": "Compare and see the performance difference between ioredis and node-redis",
+  "main": "dist/index.js",
+  "keywords": [
+    "redis",
+    "ioredis",
+    "node-redis",
+    "performance",
+    "benchmark"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rutbergphilip",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.3.2",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  }
+}
