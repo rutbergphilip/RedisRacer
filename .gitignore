@@ -21,3 +21,7 @@ out/
 # Miscellaneous
 .DS_Store
 Thumbs.db
+
+# Docker
+Dockerfile.dev
+docker-compose.dev.yml
