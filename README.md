@@ -21,8 +21,8 @@
 - [ Repository Structure](#-repository-structure)
 - [ Supported Operations](#-supported-operations)
 - [ Getting Started](#-getting-started)
-  - [ Installation & Usage (Without Docker-Compose)](#-installation-and-usage-without-docker-compose)
-  - [ Installation & Usage (With Docker-Compose)](#-installation-and-usage-with-docker-compose)
+  - [ Installation & Usage (Without Docker-Compose)](<#-installation-&-usage-(without-docker-compose)>)
+  - [ Installation & Usage (With Docker-Compose)](<#-installation-&-usage-(with-docker-compose)>)
 - [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
 - [ Acknowledgments](#-acknowledgments)
@@ -209,7 +209,7 @@ Contributions are more than welcome! Here are several ways you can contribute:
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
-   git checkout -b new-feature-x
+   git checkout -b new-benchmarks
    ```
 4. **Make Your Changes**: Develop and test your changes locally.
 5. **Commit Your Changes**: Commit with a clear message describing your updates.
