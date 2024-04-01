@@ -12,6 +12,7 @@
 	<img src="https://img.shields.io/github/last-commit/rutbergphilip/RedisRacer?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/rutbergphilip/RedisRacer?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/rutbergphilip/RedisRacer?style=default&color=0080ff" alt="repo-language-count">
+	<a href="https://www.buymeacoffee.com/rutbergphilip" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 21px !important;width: 94px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 <p>
 
 ## Table of Contents
