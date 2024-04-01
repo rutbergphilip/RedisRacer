@@ -180,7 +180,7 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 
 ## Contributing
 
-Contributions are more than welcome! Here are several ways you can contribute:
+Contributions are more than welcome in order to help improve the accuracy of the tool! Here are several ways you can contribute:
 
 - **[Report Issues](https://github.com/rutbergphilip/RedisRacer/issues)**: Submit bugs found or log feature requests for the `RedisRacer` project.
 - **[Submit Pull Requests](https://github.com/rutbergphilip/RedisRacer/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
