@@ -4,13 +4,3 @@ services:
     image: 'redis/redis-stack:latest'
     ports:
       - '6379:6379'
-
-  app:
-    build: .
-    depends_on:
-      - redis
-    ports:
-      - '3000:3000'
-    environment:
-      REDIS_HOST: redis
-      REDIS_PORT: 6379
