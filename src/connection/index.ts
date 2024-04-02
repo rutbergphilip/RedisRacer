@@ -2,12 +2,13 @@ import IORedis from 'ioredis';
 import { createClient } from 'redis';
 
 import { IORedisClient, NodeRedisClient } from '../types';
+import { Config } from '../constants';
 
 export let IORedisInstance: IORedisClient;
 export let NodeRedisInstance: NodeRedisClient;
 
 export default async function connect() {
-  IORedisInstance = new IORedis(process.env.REDIS_URL as string);
+  IORedisInstance = new IORedis(Config.REDIS_URL);
 
   await new Promise<void>((resolve) => {
     IORedisInstance.on('ready', () => {
@@ -18,7 +19,7 @@ export default async function connect() {
   });
 
   NodeRedisInstance = await createClient({
-    url: process.env.REDIS_URL,
+    url: Config.REDIS_URL,
   })
     .on('connect', () => console.log('NodeRedis is ready'))
     .on('error', (err) => console.error(err))
