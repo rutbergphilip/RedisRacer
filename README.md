@@ -15,23 +15,9 @@
 	<a href="https://www.buymeacoffee.com/rutbergphilip" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 21px !important;width: 94px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 <p>
 
-## Table of Contents
-
-- [ Overview](#-overview)
-- [ Benchmark Results](#-benchmark-results)
-- [ Repository Structure](#-repository-structure)
-- [ Supported Operations](#-supported-operations)
-- [ Getting Started](#-getting-started)
-  - [ Installation & Usage](#-installation-&-usage)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ Acknowledgments](#-acknowledgments)
-
----
-
 ## Overview
 
-RedisRacer is a performance benchmarking tool that evaluates the speed and efficiency of Redis interactions between the Node-Redis and IORedis libraries. Through a range of benchmark operations such as GET, SET, HSET, HGETALL, and JSON operations.
+RedisRacer is a performance benchmarking tool that makes use of the lightweight benchmarking library `tinybench` and evaluates the speed and efficiency of Redis interactions between the Node-Redis and IORedis libraries through a range of benchmark operations such as GET, SET, HSET, HGETALL, and JSON operations. I built this tool in the hopes of understanding the performance differences between the two major NodeJS redis-libraries IORedis and Node-Redis. To my surprise, the findings I made differs slightly from other benchmarking tools I have found and tested previously.
 
 ## Benchmark Results
 
@@ -161,7 +147,7 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 
 ## Contributing
 
-Contributions are more than welcome! Here are several ways you can contribute:
+Contributions are more than welcome in order to help improve the accuracy of the tool! Here are several ways you can contribute:
 
 - **[Report Issues](https://github.com/rutbergphilip/RedisRacer/issues)**: Submit bugs found or log feature requests for the `RedisRacer` project.
 - **[Submit Pull Requests](https://github.com/rutbergphilip/RedisRacer/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
