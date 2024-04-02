@@ -1,10 +1,8 @@
 import connect from './connection';
 import benchmarks from './benchmarks';
 
-import * as dotenv from 'dotenv';
 import { BenchmarkTableResult } from './types';
 import { calculateAverageOpsPerSec, sortResults } from './helpers';
-dotenv.config();
 
 async function main() {
   await connect();
