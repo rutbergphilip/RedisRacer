@@ -22,8 +22,7 @@
 - [ Repository Structure](#-repository-structure)
 - [ Supported Operations](#-supported-operations)
 - [ Getting Started](#-getting-started)
-  - [ Installation & Usage (Without Docker-Compose)](<#-installation-&-usage-(without-docker-compose)>)
-  - [ Installation & Usage (With Docker-Compose)](<#-installation-&-usage-(with-docker-compose)>)
+  - [ Installation & Usage](#-installation-&-usage)
 - [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
 - [ Acknowledgments](#-acknowledgments)
@@ -119,7 +118,7 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 
 ## Getting Started
 
-### Installation & Usage (Without Docker-Compose)
+### Installation & Usage
 
 > 1. Clone the RedisRacer repository:
 >
@@ -139,49 +138,16 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 > $ npm install
 > ```
 >
-> 4. Create .env file & add the following variable with your own values:
->
-> ```console
-> REDIS_URL=redis://{HOST}:{PORT}
-> ```
->
-> 5. Install and setup RedisJSON module:
->
-> ```console
-> Follow instructions based on your machine at:
-> https://github.com/RedisJSON/RedisJSON
-> ```
->
-> 6. Start your own local Redis instance (this step may differ if you prefer json-module docker approach):
->
-> ```console
-> redis-server --loadmodule /path/to/module
-> ```
->
-> 7. Build and start the application:
->
-> ```console
-> npm run build && npm start
-> ```
-
-### Installation & Usage (With Docker-Compose)
-
-> 1. Clone the RedisRacer repository:
->
-> ```console
-> $ git clone https://github.com/rutbergphilip/RedisRacer
-> ```
->
-> 2. Change to the project directory:
->
-> ```console
-> $ cd RedisRacer
-> ```
->
-> 3. Run the docker-compose:
+> 4. Start Redis server with the JSON module:
 >
 > ```console
 > docker-compose up --build
+> ```
+>
+> 5. Build and start the application:
+>
+> ```console
+> npm run build && npm start
 > ```
 
 ---
