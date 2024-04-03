@@ -129,10 +129,10 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 > docker-compose up --build
 > ```
 >
-> 5. Build and start the application:
+> 5. Start the application:
 >
 > ```console
-> npm run build && npm start
+> npm start
 > ```
 
 ---

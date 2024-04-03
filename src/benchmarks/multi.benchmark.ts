@@ -5,7 +5,10 @@ import { NodeRedisClient, IORedisClient, BenchmarkTableResult } from '../types';
 import { findMostPerformant, generateKey } from '../helpers';
 import { Config } from '../constants';
 
-const suite = new Bench({ time: Config.BENCHMARK_DURATION });
+const suite = new Bench({
+  time: Config.BENCHMARK_DURATION,
+  warmupTime: Config.BENCHMARK_WARMUP_DURATION,
+});
 
 const multikeys = Array.from({ length: 1000 }).map(() => generateKey());
 
