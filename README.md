@@ -73,7 +73,6 @@ Please refer to the full benchmark tests for a comprehensive understanding of th
 
 ```sh
 └── RedisRacer/
-    ├── Dockerfile
     ├── LICENSE
     ├── docker-compose.yml
     ├── nodemon.json
