@@ -17,7 +17,7 @@
 
 ## Overview
 
-RedisRacer is a performance benchmarking tool that makes use of the lightweight benchmarking library `tinybench` and evaluates the speed and efficiency of Redis interactions between the Node-Redis and IORedis libraries through a range of benchmark operations such as GET, SET, HSET, HGETALL, and JSON operations. I built this tool in the hopes of understanding the performance differences between the two major NodeJS redis-libraries IORedis and Node-Redis. To my surprise, the findings I made differs slightly from other benchmarking tools I have found and tested previously.
+RedisRacer is an ioredis vs node-redis performance benchmarking tool that makes use of the lightweight benchmarking library `tinybench` and evaluates the speed and efficiency of Redis interactions between these two libraries through a range of benchmark operations such as GET, SET, HSET, HGETALL, and JSON operations. I built this tool in the hopes of understanding the performance differences between the two major NodeJS redis-libraries ioredis and node-redis. To my surprise, the findings I made differs slightly from other benchmarking tools I have found and tested previously.
 
 ## Benchmark Results
 
